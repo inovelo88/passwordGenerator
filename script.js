@@ -11,10 +11,10 @@ function getPassword() {
     // console.log("getPassword");
     // Prompts //
     var passwordLen = prompt('How many characters would you like your password to contain?');
-    var lower = confirm("Click OK to confirm including uppercase characters.");
+    var lower = confirm("Click OK to confirm including lowercase characters.");
     var upper = confirm("Click OK to confirm including uppercase characters.");
-    var number = confirm("Click OK to confirm including uppercase characters.");
-    var symbols = confirm("Click OK to confirm including uppercase characters.");
+    var number = confirm("Click OK to confirm including number characters.");
+    var symbols = confirm("Click OK to confirm including symbols characters.");
    
     var newPassword = ""; 
     // Loop //
